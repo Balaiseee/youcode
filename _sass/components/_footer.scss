@@ -1,0 +1,12 @@
+.footer {
+  background: $footer-background-color;
+  height: 60px;
+  a {
+  color: $white;
+  padding: 10px;
+  }
+  p {
+  text-align: center;
+  margin: 17px 0 17px 0; // (Height - Size of p) / 2 = 17px
+  }
+}

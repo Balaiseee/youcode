@@ -1,0 +1,8 @@
+<div class="footer">
+        <p>
+            {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
+            {% for item in footermenu %}
+              <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            {% endfor %}
+        </p>
+</div>

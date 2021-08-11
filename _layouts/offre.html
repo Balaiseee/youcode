@@ -1,0 +1,27 @@
+---
+layout: default
+bodyClass: "page-basic"
+---
+
+<div class="container offre">
+    <div class="row justify-content-start">
+        <div class="col-12 center">
+            <div class="service service-single">
+                <div class="content">{{ content }}</div>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+      {% for qualite in site.data.qualites %}
+      <div class="col-12 col-md-6 col-lg-4 mb-2">
+        <div class="feature">
+          {% if qualite.image %}
+          <div class="feature-image"><img alt="{{ qualite.title }} logo" src="{{ qualite.image.url | relative_url }}" width="{{ qualite.image.width }}" height="{{ qualite.image.height }}" /></div>
+          {% endif %}
+          <h2 class="feature-title">{{ qualite.title }}</h2>
+          <div class="feature-content">{{ qualite.description }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>

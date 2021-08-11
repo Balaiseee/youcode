@@ -1,0 +1,16 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  .wrapper {
+    flex: 1 0 0;
+  }
+  .highlight {
+      background-color: $white-offset;
+      color:$black;
+      padding: 0rem 0.25rem 0rem 0.25rem;
+  }
+  .center {
+      text-align: center;
+  }
+}

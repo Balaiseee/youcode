@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Accessible",
+    "description": "Conçu pour être accessible 24h/24 7j/7 sur ordinateur, tablette ou mobile",
+    "image": {
+      "url": "images/qualites/accessible.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Fiable",
+    "description": "Conçu pour être performant et sûr à l’image de votre activité",
+    "image": {
+      "url": "images/qualites/fiable.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Visible",
+    "description": "Conçu pour être trouvé le plus facilement possible sur Google",
+    "image": {
+      "url": "images/qualites/visible.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+    {
+    "title": "Rentable",
+    "description": "Conçu pour maximiser le taux de conversion de visiteurs en clients",
+    "image": {
+      "url": "images/qualites/rentable.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Durable",
+    "description": "Conçu à travers une gestion intelligente des ressources",
+    "image": {
+      "url": "images/qualites/durable.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]

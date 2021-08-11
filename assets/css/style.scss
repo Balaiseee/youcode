@@ -1,0 +1,69 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+---
+
+// Colors
+$primary: #000000;
+$primary-dark: #a01b16;
+$secondary: #ffffff;
+$black: #000000;
+$white: #ffffff;
+$white-offset: #dfcfbe;
+$steel: #000000;
+
+// Links
+$link-color: $primary;
+$link-decoration: none;
+$link-hover-color: lighten($primary, 10%);
+$link-hover-decoration: underline;
+
+// Fonts
+$font-family-base: "Montserrat", sans-serif;
+$font-family-heading: "Montserrat Alternates", sans-serif;
+
+// Footer
+$footer-background-color: $primary;
+$footer-text-color: $white;
+$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-text-color: $white;
+
+// Bootstrap
+@import "bootstrap-variables";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-grid";
+
+// Libraries
+@import "libraries/hamburgers/hamburgers";
+
+// Components
+@import "components/type";
+@import "components/page";
+@import "components/header";
+@import "components/footer";
+@import "components/logo";
+@import "components/main-menu";
+@import "components/main-menu-mobile";
+@import "components/hamburger";
+@import "components/buttons";
+@import "components/call";
+@import "components/title";
+@import "components/content";
+/*! purgecss start ignore */
+@import "components/intro";
+/*! purgecss end ignore */
+@import "components/strip";
+@import "components/feature";
+@import "components/realisations";
+@import "components/offre";
+@import "components/fonts";
+
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: $font-family-base;
+  color: $primary;
+  @include media-breakpoint-up(md) {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+}

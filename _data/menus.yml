@@ -1,0 +1,19 @@
+main:
+  - name: "Offre"
+    url: "/offre/"
+    weight: 1
+  - name: "Réalisations"
+    url: "/realisations/"
+    weight: 2
+  - name: "Fondateur"
+    url: "/fondateur/"
+    weight: 3
+    
+  - name: "Contact"
+    url: "/contact/"
+    weight: 3
+
+footer:
+  - name: "Mentions légales"
+    url: "/mentions/"
+    weight: 1
