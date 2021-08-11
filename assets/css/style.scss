@@ -48,14 +48,12 @@ $sub-footer-text-color: $white;
 @import "components/call";
 @import "components/title";
 @import "components/content";
-/*! purgecss start ignore */
 @import "components/intro";
-/*! purgecss end ignore */
 @import "components/strip";
 @import "components/feature";
 @import "components/realisations";
 @import "components/offre";
-@import "components/fonts";
+//@import "components/fonts";
 
 body {
   font-size: 16px;
