@@ -2,8 +2,8 @@ main:
   - name: "Offre"
     url: "/offre/"
     weight: 1
-  - name: "Réalisations"
-    url: "/realisations/"
+  - name: "Réalisation"
+    url: "/realisation/"
     weight: 2
   - name: "Fondateur"
     url: "/fondateur/"
